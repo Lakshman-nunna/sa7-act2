@@ -9,7 +9,7 @@ Expected Output:
 Hello, Alice!
 Hello, Bob!
 '''
-name = Alice
+
 ARGV.each do |name|
   puts "Hello, #{name}!"
 end
